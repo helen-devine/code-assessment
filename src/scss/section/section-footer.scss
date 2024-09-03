@@ -127,18 +127,20 @@
       margin-bottom: rem(8);
     }
     input {
+      min-height: rem(48);
       padding-right: rem(70);
     }
     &__submit {
       position: absolute;
       right: 0;
-      top: 0;
-      width: 32px;
-      height: 32px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: rem(20);
+      height: rem(20);
       padding: 0;
       .icon {
-        width: 48px;
-        height: 48px;
+        width: rem(32);
+        height: rem(32);
         margin: 0;
       }
     }

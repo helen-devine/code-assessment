@@ -28,12 +28,12 @@
   padding-right: var(--site-side-spacing);
   @include mqmin($bp-md) {
     padding-right: var(--site-side-spacing-md);
-    @include mqmin($bp-lg) {
-      padding-right: var(--site-side-spacing-lg);
-    }
-    @include mqmin($bp-xxl) {
-      padding-right: var(--site-side-spacing-xxl);
-    }
+  }
+  @include mqmin($bp-lg) {
+    padding-right: var(--site-side-spacing-lg);
+  }
+  @include mqmin($bp-xxl) {
+    padding-right: var(--site-side-spacing-xxl);
   }
 }
 
