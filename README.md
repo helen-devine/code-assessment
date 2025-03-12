@@ -22,7 +22,7 @@ The assignments below describes what needs to be implemented. Don't be afraid to
 1. In the shopify-section "usp", on mobile it should only show 1 usp per line (<768px).
 1. In the shopify-section "usp" the icons should be placed (rendered) below the text.
 1. On the homepage the heading elements (h1, h2, h3) are not in a sequentially-descending order, please fix this.
-1. The newsletter button is to small for touch devices and should be 42 x 42px at least.
+1. Do a lighthouse check on Accessibility for mobile and fix the issue with the touch target.
 1. Create a new shopify-section with a text and image pane. (See [Assessment designs](#markdown-header-assessment-designs)). Use [this](https://cdn.shopify.com/s/files/1/0550/3202/1172/files/21_07-Stoov-12._Thuiswerken_aan_keukentafel_058_BEW_RGB_LR_1_2000x1300_crop_center.jpg) as image. The 2000x1300 in the url can be adjusted to render smaller images and crops.
 1. The footer navigation shows to much on mobile, make it 3 collapsible panes showing only the headings. Write a simple JavaScript function that will make the panes collapse and open when the heading is clicked.
 1. In the shopify-section "Hero Slider", there is a scroll indicator which now doesn't work. Please make the scroll indicator work, make it scroll the page down when clicking on it.
