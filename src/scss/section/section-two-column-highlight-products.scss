@@ -74,10 +74,10 @@
 
 // set stoov heatwave colors with a key and value
 $heatwave-colors: (
-  "heatwave-transparent": "heatwave-transparent.svg",
-  "heatwave-light-blue": "heatwave-light-blue.svg", 
-  "heatwave-salmon": "heatwave-salmon.svg", 
-  "heatwave-olive-green": "heatwave-olive-green.svg"
+  "heatwave-transparent": "../assets/heatwave-transparent.svg",
+  "heatwave-light-blue": "../assets/heatwave-light-blue.svg", 
+  "heatwave-salmon": "../assets/heatwave-salmon.svg", 
+  "heatwave-olive-green": "../assets/heatwave-olive-green.svg"
 );
 // loop the colors and assign a background
 @each $name, $color in $heatwave-colors {
